@@ -1,6 +1,6 @@
 # Hi there, I'm SherJan - aka sherySJ 👋 
 
-SherJan here, a second year computer science student studying at Air University. I have a passion for Front-End Development and am actively learning and honing my skills in this area ✨. I strive to produce top-notch work that not only meets, but exceeds expectations. As a proactive learner and a team player, I'm always eager to take on new challenges and collaborate with others to produce projects that truly stand out 💻🌟 . I'm excited to continue developing my skills and pushing the boundaries of what's possible 🚀! 
+SherJan here, a second year computer science student studying at Air University. I have a passion for Front-End Development and am actively learning and honing my skills in this area ✨. I strive to produce top-notch work that not only meets, but exceeds expectations. As a proactive learner and a team player, I'm always eager to take on new challenges and collaborate with others to produce projects that truly stand out 💻🌟 . I'm excited to continue developing my skills and pushing the boundaries of what's possible! 🚀 
 
 ---
 
