@@ -7,7 +7,7 @@ SherJan here, a second year computer science student studying at Air University.
 ## I'm a Student, Learner and a Developer!
 
 - 🌱 I’m currently learning MERN Stack
-- 🥅 2023 Goals: Learn React, Flutter 
+- 🥅 2023 Goals: Learn React, delve deeper into Open-Source contributions
 - ⚡ Fun fact: I love to hike and read 
 
 ---
