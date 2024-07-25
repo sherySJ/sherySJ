@@ -7,7 +7,7 @@ SherJan here, a third year computer science student studying at Air University. 
 ## I'm a Student, Learner and a Developer!
 
 - 🌱 I’m currently learning MERN Stack
-- 🥅 2023 Goals: Build an awesome full stack application in Blazor .NET (it's interesting)
+- 🥅 2024 Goals: Build amazing applications in Next.JS
 - ⚡ Fun fact: I love to hike and read 
 
 ---
