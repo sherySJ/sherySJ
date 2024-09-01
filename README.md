@@ -6,7 +6,7 @@ SherJan here, a final year computer science student studying at Air University. 
 
 ## I'm a Student, Learner and a Developer!
 
-- 🌱 I’m currently learning MERN Stack
+- 🌱 I’m currently learning Next.js + dotnet
 - 🥅 2024 Goals: Build amazing applications in Next.JS
 - ⚡ Fun fact: I love to hike and read 
 
