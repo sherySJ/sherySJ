@@ -4,14 +4,6 @@ SherJan here, a final year computer science student studying at Air University. 
 
 ---
 
-## I'm a Student, Learner and a Developer!
-
-- 🌱 I’m currently learning Next.js + dotnet
-- 🥅 2024 Goals: Build amazing applications in Next.JS
-- ⚡ Fun fact: I love to hike and read 
-
----
-
 ### Languages & Tools
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
