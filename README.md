@@ -76,7 +76,7 @@ I'm passionate about creating scalable solutions and have worked with various op
 
 &nbsp;&nbsp;
 [![website](./img/linkedin-light.svg)](https://linkedin.com/in/sher-jan#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://linkedin.com/in/sherjan909#gh-dark-mode-only)
+[![website](./img/linkedin-dark.svg)](https://linkedin.com/in/sher-jan#gh-dark-mode-only)
 &nbsp;&nbsp;
 
 ---
