@@ -1,64 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="15" fill="#c9d1d9">
-<style>.k{fill:#ffa657}.v{fill:#a5d6ff}.d{fill:#616e7f}text{white-space:pre}</style>
-<rect width="985" height="530" fill="#161b22" rx="15"/>
-<text x="18" y="43.8" font-size="9" textLength="227.9" lengthAdjust="spacingAndGlyphs">                                        ...</text>
-<text x="18" y="54.7" font-size="9" textLength="249.1" lengthAdjust="spacingAndGlyphs">                                     .,111i:,..</text>
-<text x="18" y="65.6" font-size="9" textLength="265.0" lengthAdjust="spacingAndGlyphs">                      .;;1itttt111C880CLftffLfii:.</text>
-<text x="18" y="76.5" font-size="9" textLength="291.5" lengthAdjust="spacingAndGlyphs">                    ;tCLittLLLLLfffLC8@@80LtfLLf11i,:,.</text>
-<text x="18" y="87.4" font-size="9" textLength="286.2" lengthAdjust="spacingAndGlyphs">                  itfttLGGGGGGGGG00GCCG8@@@@GCCGCf1ii.</text>
-<text x="18" y="98.3" font-size="9" textLength="286.2" lengthAdjust="spacingAndGlyphs">                L80tLGG0888@@@@@888@@@808@@@@@LC@80f1.</text>
-<text x="18" y="109.2" font-size="9" textLength="286.2" lengthAdjust="spacingAndGlyphs">               t8ffLCG000088888@@@@@@@@@@8@@@@@G8@@L;,</text>
-<text x="18" y="120.1" font-size="9" textLength="328.6" lengthAdjust="spacingAndGlyphs">              .CCG000888880000880Lt11ii11i1tffLG@@@Gft1i::.:t:</text>
-<text x="18" y="131.0" font-size="9" textLength="312.7" lengthAdjust="spacingAndGlyphs">              180C08@@@@8G0GLft1:,,,,...,,,,,..:0@@fLCft1;.</text>
-<text x="18" y="141.9" font-size="9" textLength="312.7" lengthAdjust="spacingAndGlyphs">              f8G8@@@8GLfLti;::,,::,,,,,,,...,,i880fGGGfCG:</text>
-<text x="18" y="152.8" font-size="9" textLength="312.7" lengthAdjust="spacingAndGlyphs">              i88@@8Ctt1i;:::::,,:,,,,,,,,,..,,L8GG0808CGL.</text>
-<text x="18" y="163.7" font-size="9" textLength="307.4" lengthAdjust="spacingAndGlyphs">              .880iii;:,.........,....,,..,,..,C8Lf088880.</text>
-<text x="18" y="174.6" font-size="9" textLength="302.1" lengthAdjust="spacingAndGlyphs">               ;@f..,..........................iGCCCCG@@t</text>
-<text x="18" y="185.5" font-size="9" textLength="302.1" lengthAdjust="spacingAndGlyphs">                @;,CG08880Gti:,::ifCGG00GGGL1....;ftLC88.</text>
-<text x="18" y="196.4" font-size="9" textLength="302.1" lengthAdjust="spacingAndGlyphs">                G.:i:i1tfCGCf;:;1LCG00Ct1i;;i;....1Lff0G.</text>
-<text x="18" y="207.3" font-size="9" textLength="302.1" lengthAdjust="spacingAndGlyphs">                L..1CLtGG008G,..;LG00tCGGLCL1;:...;Gf:t;.</text>
-<text x="18" y="218.2" font-size="9" textLength="302.1" lengthAdjust="spacingAndGlyphs">                t..,,;1fff1t:...,;1tftftti;;i;;,...C1.,1i</text>
-<text x="18" y="229.1" font-size="9" textLength="302.1" lengthAdjust="spacingAndGlyphs">               ,i....:;;:.,.......:..:iii;:........t1t;,;</text>
-<text x="18" y="240.0" font-size="9" textLength="302.1" lengthAdjust="spacingAndGlyphs">               :i........;........,f;..............tifL;.</text>
-<text x="18" y="250.9" font-size="9" textLength="296.8" lengthAdjust="spacingAndGlyphs">               ti......;t,::.,,,:,.1f1:...........:0f.;;</text>
-<text x="18" y="261.8" font-size="9" textLength="296.8" lengthAdjust="spacingAndGlyphs">               fi..,,:;;..tfittfGCi..:i;;:,,......LGf..,</text>
-<text x="18" y="272.7" font-size="9" textLength="291.5" lengthAdjust="spacingAndGlyphs">               1i.;::;i::;tLCLC0LLi1tii;;;;;:,,..,G8;..</text>
-<text x="18" y="283.6" font-size="9" textLength="286.2" lengthAdjust="spacingAndGlyphs">               ;C:;;;C88GfCCLttLLffLG@@C1iiiii;;:108i.</text>
-<text x="18" y="294.5" font-size="9" textLength="275.6" lengthAdjust="spacingAndGlyphs">                @Li:1@0GLti;;;;;;i1fLLG@f;iitftttL@i</text>
-<text x="18" y="305.4" font-size="9" textLength="270.3" lengthAdjust="spacingAndGlyphs">                t@fi;Lf:.,;1t1tt1i;:,,;Li;ttLCCCf8G</text>
-<text x="18" y="316.3" font-size="9" textLength="270.3" lengthAdjust="spacingAndGlyphs">                 C@LiC01::;tC00Cfi;:i1tLi;LCLCG08@,</text>
-<text x="18" y="327.2" font-size="9" textLength="270.3" lengthAdjust="spacingAndGlyphs">                  t@G888L;:::ii:;;:f@8G0CfL0080@C,.</text>
-<text x="18" y="338.1" font-size="9" textLength="275.6" lengthAdjust="spacingAndGlyphs">                   :C@@@GfLftt1i1tfL@@@08@@@@@0L:..L</text>
-<text x="18" y="349.0" font-size="9" textLength="286.2" lengthAdjust="spacingAndGlyphs">                     :C@@@@0C08G0@@88@@@@@@@8Gf;:..@C,</text>
-<text x="18" y="359.9" font-size="9" textLength="291.5" lengthAdjust="spacingAndGlyphs">                        18@@@@@@@@@@@@@@@@80Cti;;.:@fL;</text>
-<text x="18" y="370.8" font-size="9" textLength="307.4" lengthAdjust="spacingAndGlyphs">                        :tfC008888888000GGCft11i,.08tfCt;,</text>
-<text x="18" y="381.7" font-size="9" textLength="339.2" lengthAdjust="spacingAndGlyphs">                    ;iiC@:;11tfLLCCCCCLLLLft11i;.C@CfffLC0CLi;:.</text>
-<text x="18" y="392.6" font-size="9" textLength="365.7" lengthAdjust="spacingAndGlyphs">             :i1tfC8Gf0@8.,i11tfLLLLLLfftt11ii1;f@0CLLLLC08@8GGCft1i:</text>
-<text x="18" y="403.5" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">       :itLCGCCCCGGt1G@@@,.;i1tfffffttt1111111;;88GGCCCCCC0880GGGCLCCCf1</text>
-<text x="18" y="414.4" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">  ,;1fCGGCLLfLLCCLtt0@@8CG::;;i11t111111111i;;1G@GGGGCCGGC0000GGGGGCLLLL</text>
-<text x="18" y="425.3" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">1fCCCCLLLffLCCCCftLG@@@@iGG;:i11111ii;i;;i1tL0@@0GGGGGGGGGC0GGGGGGGGGCCC</text>
-<text x="18" y="436.2" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">LLLLCLLLLLCCLCLffCG8@@@0CfGL:,iiii;::itfCG880880000GCGGCCGCG0GGGGGGGGGGC</text>
-<text x="18" y="447.1" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">LLCCLLffLCCG0CLCCC0@@@0tCGG00CLLLLCG08888GCG00000G00GG000880GGGGGGGGGGGG</text>
-<text x="18" y="458.0" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">CCLLffLCCCLLGGCCCG@@@@LtLLCG08888880GCGCLLG8000G00G0008800GCGGGGGGGGGGGG</text>
-<text x="18" y="468.9" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">CLfffCCCCCGGCCCCC8@880tfCLfLLfLLLLffLGCtf08000000GG0GGGGGGGGGGGGGGGGGGGG</text>
-<text x="18" y="479.8" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">LfffLCCCCGGCCCCC8@808ftLLLLLLLLfffLGGf1L00G0000GGGGGGGG0CG0GGGCGGGGGGGGG</text>
-<text x="18" y="490.7" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">fffLLCGCGGGCCCC0@8G0C1LCLfffffttfC0L1tC0GGGGGG00GGGGGGGCG8GGGCGGGGGGGGGG</text>
-<text x="18" y="501.6" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">ffLCCGGGGGCCCLG@@GGGttLLffffttfLGCtifGCCGGGGGGGG0GGGGGC08GCGGGGGGGGGGGGG</text>
-<text x="18" y="512.5" font-size="9" textLength="381.6" lengthAdjust="spacingAndGlyphs">LLCCGGGGGCCCCC@@GCGL1fLLfffttfLCL11CGCfC0GGGGGGGGGGGGC08CCGGGGGGGGGGGGGG</text>
-<text x="425" y="30" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">sher@jan</tspan><tspan class="d"> ———————————————————————————————————————————————————</tspan></text>
-<text x="425" y="50" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Role</tspan>:<tspan class="d"> ........ </tspan><tspan class="v">Platform &amp; security engineer, AI chat product</tspan></text>
-<text x="425" y="70" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Focus</tspan>:<tspan class="d"> ........... </tspan><tspan class="v">Agent tooling · MCP servers · AI security</tspan></text>
-<text x="425" y="90" textLength="549" lengthAdjust="spacingAndGlyphs"><tspan class="k">Building</tspan>:<tspan class="d"> . </tspan><tspan class="v">Saveyard, a local-first archive for what you save</tspan></text>
-<text x="425" y="110" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Stack</tspan>:<tspan class="d"> ................ </tspan><tspan class="v">TypeScript · Python · Swift · Docker</tspan></text>
-<text x="425" y="130" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Location</tspan>:<tspan class="d"> ............. </tspan><tspan class="v">Islamabad, PK · open to remote roles</tspan></text>
-<text x="425" y="170" textLength="540" lengthAdjust="spacingAndGlyphs">— Open source <tspan class="d">——————————————————————————————————————————————</tspan></text>
-<text x="425" y="190" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Upstream PRs merged</tspan>:<tspan class="d"> .................................... </tspan><tspan class="v">13</tspan></text>
-<text x="425" y="210" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Contributed to</tspan>:<tspan class="d"> .............. </tspan><tspan class="v">AnyPS5 53.4k★ · codenotch 3k★</tspan></text>
-<text x="425" y="250" textLength="540" lengthAdjust="spacingAndGlyphs">— Contact <tspan class="d">——————————————————————————————————————————————————</tspan></text>
-<text x="425" y="270" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">LinkedIn</tspan>:<tspan class="d"> ...................................... </tspan><tspan class="v">in/sher-jan</tspan></text>
-<text x="425" y="290" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">GitHub</tspan>:<tspan class="d"> ........................................... </tspan><tspan class="v">@sherySJ</tspan></text>
-<text x="425" y="330" textLength="540" lengthAdjust="spacingAndGlyphs">— GitHub stats <tspan class="d">—————————————————————————————————————————————</tspan></text>
-<text x="425" y="350" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Contributions (last year)</tspan>:<tspan class="d"> ........................... </tspan><tspan class="v">4,732</tspan></text>
-<text x="425" y="370" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">On GitHub</tspan>:<tspan class="d"> ......................................... </tspan><tspan class="v">8 years</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="470" viewBox="0 0 600 470" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="15" fill="#c9d1d9">
+<style>.k{fill:#ffa657}.v{fill:#a5d6ff}.d{fill:#484f58}text{white-space:pre}</style>
+<rect x="0.5" y="0.5" width="599" height="469" rx="12" fill="#161b22" stroke="#30363d"/>
+<path d="M0.5 38 V12.5 a12 12 0 0 1 12 -12 H587.5 a12 12 0 0 1 12 12 V38 Z" fill="#21262d"/>
+<line x1="0.5" y1="38" x2="599.5" y2="38" stroke="#30363d"/>
+<circle cx="22" cy="19.0" r="6" fill="#ff5f57"/>
+<circle cx="42" cy="19.0" r="6" fill="#febc2e"/>
+<circle cx="62" cy="19.0" r="6" fill="#28c840"/>
+<text x="300.0" y="24.0" text-anchor="middle" font-size="13" fill="#8b949e">sher@jan: ~</text>
+<text x="30" y="68" textLength="540" lengthAdjust="spacingAndGlyphs">— About <tspan class="d">————————————————————————————————————————————————————</tspan></text>
+<text x="30" y="90" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Role</tspan>:<tspan class="d"> ........ </tspan><tspan class="v">Platform &amp; security engineer, AI chat product</tspan></text>
+<text x="30" y="112" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Focus</tspan>:<tspan class="d"> ........... </tspan><tspan class="v">Agent tooling · MCP servers · AI security</tspan></text>
+<text x="30" y="134" textLength="549" lengthAdjust="spacingAndGlyphs"><tspan class="k">Building</tspan>:<tspan class="d"> . </tspan><tspan class="v">Saveyard, a local-first archive for what you save</tspan></text>
+<text x="30" y="156" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Stack</tspan>:<tspan class="d"> ................ </tspan><tspan class="v">TypeScript · Python · Swift · Docker</tspan></text>
+<text x="30" y="178" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Location</tspan>:<tspan class="d"> ............. </tspan><tspan class="v">Islamabad, PK · open to remote roles</tspan></text>
+<text x="30" y="222" textLength="540" lengthAdjust="spacingAndGlyphs">— Open source <tspan class="d">——————————————————————————————————————————————</tspan></text>
+<text x="30" y="244" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Upstream PRs merged</tspan>:<tspan class="d"> .................................... </tspan><tspan class="v">15</tspan></text>
+<text x="30" y="266" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Contributed to</tspan>:<tspan class="d"> .............. </tspan><tspan class="v">AnyPS5 53.4k★ · codenotch 3k★</tspan></text>
+<text x="30" y="310" textLength="540" lengthAdjust="spacingAndGlyphs">— Contact <tspan class="d">——————————————————————————————————————————————————</tspan></text>
+<text x="30" y="332" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">LinkedIn</tspan>:<tspan class="d"> ...................................... </tspan><tspan class="v">in/sher-jan</tspan></text>
+<text x="30" y="354" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">GitHub</tspan>:<tspan class="d"> ........................................... </tspan><tspan class="v">@sherySJ</tspan></text>
+<text x="30" y="398" textLength="540" lengthAdjust="spacingAndGlyphs">— GitHub stats <tspan class="d">—————————————————————————————————————————————</tspan></text>
+<text x="30" y="420" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">Contributions (last year)</tspan>:<tspan class="d"> ........................... </tspan><tspan class="v">4,748</tspan></text>
+<text x="30" y="442" textLength="540" lengthAdjust="spacingAndGlyphs"><tspan class="k">On GitHub</tspan>:<tspan class="d"> ......................................... </tspan><tspan class="v">8 years</tspan></text>
 </svg>

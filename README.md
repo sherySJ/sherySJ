@@ -1,9 +1,11 @@
+<p align="center">
 <a href="https://www.linkedin.com/in/sher-jan/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sherySJ/sherySJ/main/dark_mode.svg">
-    <img alt="Sher Jan: platform and security engineer building AI agent tooling. Merged upstream PRs, projects contributed to and GitHub stats, refreshed daily." src="https://raw.githubusercontent.com/sherySJ/sherySJ/main/light_mode.svg">
+    <img alt="Sher Jan: platform and security engineer working on AI agent tooling, MCP servers and AI security. Open-source contributions and GitHub stats." src="https://raw.githubusercontent.com/sherySJ/sherySJ/main/light_mode.svg">
   </picture>
 </a>
+</p>
 
 ### Open-source highlights
 
