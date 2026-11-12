@@ -14,8 +14,6 @@
 
 **Building:** Saveyard, a local-first archive of everything you save on X, GitHub and Reddit, classified by AI against your own goals and searchable by your agents over MCP. Open-sourcing soon.
 
-**How I work:** agents do most of the typing; I own the design, the review and the result. Every upstream PR says how it was tested, and I answer review the same day.
+**How I work:** small, well-scoped changes with the evidence attached: tests, before-and-after measurements, and a clear note on how each change was verified. I use AI coding tools with the same discipline as any other tool: I own the design, the tests and the review, and I answer maintainer feedback the same day.
 
 **Open to** remote contract and full-time roles in agent tooling, developer infrastructure and AI security. [LinkedIn](https://www.linkedin.com/in/sher-jan/)
-
-<sub>The card above is drawn by [scripts/build_card.py](scripts/build_card.py) from live GitHub data and refreshed daily. Layout inspired by [Andrew6rant](https://github.com/Andrew6rant).</sub>

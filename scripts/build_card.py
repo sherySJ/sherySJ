@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Draw the neofetch-style profile card (dark_mode.svg, light_mode.svg).
 
-Left: the GitHub avatar as ASCII art. Right: who I am plus live numbers from
+Left: assets/portrait.jpg as ASCII art. Right: who I am plus live numbers from
 the GitHub API (merged upstream PRs, projects contributed to, contributions).
 Runs daily in .github/workflows/card.yml; run locally with GH_TOKEN set.
 """
@@ -9,7 +9,6 @@ import json
 import os
 import urllib.request
 from datetime import datetime, timezone
-from io import BytesIO
 from xml.sax.saxutils import escape
 
 from PIL import Image, ImageDraw, ImageFilter, ImageOps
@@ -18,10 +17,12 @@ USER = "sherySJ"
 # Work for my employer's upstreams counts as day-job work, not personal open source.
 EXCLUDE_REPOS = {"danny-avila/LibreChat", "BerriAI/litellm"}
 EXCLUDE_OWNERS = {USER.lower(), "aim2balance-ai"}
-FACE_CROP = (128, 70, 372, 440)  # box around the face in the 460px avatar
-COLS, ROWS = 58, 36
-RAMP = " .:-=+*#%@"
+PORTRAIT = "assets/portrait.png"  # background removed with macOS Vision subject lifting
+FACE_CROP = (92, 100, 422, 530)  # head and collar, same 0.77 aspect as the ASCII box
+COLS, ROWS = 72, 46
+RAMP = " .,:;i1tfLCG08@"
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
 
@@ -40,7 +41,7 @@ def gql(query, **variables):
 
 def stats():
     user = gql(
-        """query($u:String!){user(login:$u){createdAt avatarUrl(size:460)
+        """query($u:String!){user(login:$u){createdAt
         contributionsCollection{contributionCalendar{totalContributions}}}}""",
         u=USER,
     )["user"]
@@ -67,7 +68,6 @@ def stats():
         projects[name] = r["stargazerCount"]
     years = (datetime.now(timezone.utc) - datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))).days // 365
     return {
-        "avatar": user["avatarUrl"],
         "contributions": user["contributionsCollection"]["contributionCalendar"]["totalContributions"],
         "merged": len(upstream),
         "projects": sorted(projects.items(), key=lambda kv: -kv[1]),
@@ -75,24 +75,25 @@ def stats():
     }
 
 
-def ascii_art(avatar_url, dark):
-    """Dark features become dense characters (like ink); the background fades out around the head."""
-    with urllib.request.urlopen(avatar_url, timeout=30) as r:
-        img = Image.open(BytesIO(r.read())).convert("L")
-    img = img.resize((460, 460)).crop(FACE_CROP)
-    img = ImageOps.autocontrast(img, cutoff=2)
-    w, h = img.size
-    mask = Image.new("L", (w, h), 0)
-    ImageDraw.Draw(mask).ellipse((w * 0.06, h * 0.02, w * 0.94, h * 1.08), fill=255)
-    mask = mask.filter(ImageFilter.GaussianBlur(w * 0.06))
-    img = Image.composite(img, Image.new("L", (w, h), 255), mask)
+def ascii_art(path, dark):
+    """The portrait has its background cut out (white). Dark features become dense characters."""
+    img = Image.open(path).convert("L").crop(FACE_CROP)
+    subject = img.point(lambda v: 255 if v < 248 else 0)  # everything that isn't the white background
+    # Stretch tones using the head only, so the dark jacket doesn't wash the face out.
+    head = subject.copy()
+    ImageDraw.Draw(head).rectangle((0, int(head.height * 0.72), head.width, head.height), fill=0)
+    img = ImageOps.equalize(img, mask=head).filter(ImageFilter.UnsharpMask(radius=4, percent=200, threshold=1))
     img = img.resize((COLS, ROWS), Image.LANCZOS)
+    keep = subject.resize((COLS, ROWS), Image.LANCZOS)
     lines = []
     for y in range(ROWS):
         row = ""
         for x in range(COLS):
-            density = (1 - img.getpixel((x, y)) / 255) ** 1.15
-            row += RAMP[min(len(RAMP) - 1, int(density * len(RAMP)))]
+            if keep.getpixel((x, y)) < 110:
+                row += " "
+                continue
+            density = (1 - img.getpixel((x, y)) / 255) ** 1.1
+            row += RAMP[max(1, min(len(RAMP) - 1, int(density * len(RAMP))))]
         lines.append(row.rstrip())
     return lines
 
@@ -147,11 +148,11 @@ def svg(s, dark):
         spans = "".join(f'<tspan class="{cls}">{escape(t)}</tspan>' if cls else escape(t) for t, cls in parts)
         out.append(f'<text x="{x}" y="{y}" textLength="{n * char_w}" lengthAdjust="spacingAndGlyphs">{spans}</text>')
 
-    # The portrait uses a smaller grid than the text: 58 x 36 cells in a 383 x 500 box.
-    for i, row in enumerate(ascii_art(s["avatar"], dark)):
+    # The portrait uses a finer grid than the text: 72 x 46 cells in a 382 x 500 box.
+    for i, row in enumerate(ascii_art(os.path.join(ROOT, PORTRAIT), dark)):
         if row:
             out.append(
-                f'<text x="{x_ascii}" y="{24 + i * 13.9:.1f}" font-size="11" textLength="{len(row) * 6.6:.1f}" '
+                f'<text x="{x_ascii}" y="{22 + i * 10.9:.1f}" font-size="9" textLength="{len(row) * 5.3:.1f}" '
                 f'lengthAdjust="spacingAndGlyphs">{escape(row)}</text>'
             )
     y = 30
@@ -176,8 +177,7 @@ if __name__ == "__main__":
     if not TOKEN:
         raise SystemExit("set GH_TOKEN or GITHUB_TOKEN")
     data = stats()
-    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     for dark, name in ((True, "dark_mode.svg"), (False, "light_mode.svg")):
-        with open(os.path.join(root, name), "w") as f:
+        with open(os.path.join(ROOT, name), "w") as f:
             f.write(svg(data, dark))
-    print(json.dumps({k: v for k, v in data.items() if k != "avatar"}))
+    print(json.dumps(data))
